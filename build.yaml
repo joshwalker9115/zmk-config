@@ -15,5 +15,4 @@
 include:
   - board: nice_nano
     shield: horizon
-    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
