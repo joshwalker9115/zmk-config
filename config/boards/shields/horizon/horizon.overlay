@@ -11,6 +11,7 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical_layout = &horizon_layout;
+        zephyr,console = &cdc_acm_uart;
     };
 
     kscan0: kscan_0 {
